@@ -1,51 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MCRT</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html, body {
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: #ffffff;
-        }
-        #frame-container {
-            width: 100vw;
-            height: 100vh;
-            position: relative;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-        /* Ensure responsiveness */
-        @media (max-width: 768px) {
-            #frame-container {
-                height: auto;
-            }
-            iframe {
-                height: 90vh; /* Keeps some space at the bottom */
-            }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VERILINK</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      background: #ffffff;
+    }
+
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-    <div id="frame-container">
-        <iframe id="embeddedPage" src="https://tubular-mooncake-cb666d.netlify.app/" loading="lazy">
-            Your browser does not support iframes. 
-            <a href="https://tubular-mooncake-cb666d.netlify.app/" target="_blank">Click here</a> to view the content.
-        </iframe>
-    </div>
+  <iframe
+    src="https://hcms-production-2026-v2.netlify.app/onboarding"
+    title="TASKSYNC">
+    Your browser does not support iframes.
+  </iframe>
 </body>
 </html>
-
 
